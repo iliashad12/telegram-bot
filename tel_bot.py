@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from Scraping import get_average_price
 
-Token = "8772360892:AAE7fYlmI9xQ1aQTcuUjFxym4DwWE2LBsVI"
+Token = "*******************"
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
